@@ -1,4 +1,4 @@
-* {
+ul, ol {
   list-style-type: none;
 }
 
@@ -9,15 +9,15 @@ body {
   line-height: 1.5;
   color: #2E2F42;
   background-color: #ffffff;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
 }
 a,
 button {
   text-decoration: none;
-  color: #434455;
+  color: #2E2F42;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
 }
 
 .logo {
@@ -25,7 +25,7 @@ button {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
-  letter-spacing: .03em;
+  letter-spacing: 0.03em;
 }
 
 .logo-accent {
@@ -60,7 +60,7 @@ button {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
 }
 
 .hero-order-btn {
@@ -68,21 +68,32 @@ button {
   color: #ffffff;
   font-weight: 500;
   cursor: pointer;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
 }
 .hero-order-btn:hover,
 .hero-order-btn:focus {
   background-color: #404bbf;
 }
 
-.section-title {
+/* .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+} */
+h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
 }
 
-.portfolio-name, .team-member-name {
+/* .portfolio-name, .team-member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+} */
+h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
