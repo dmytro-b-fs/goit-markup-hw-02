@@ -73,6 +73,7 @@ button {
   font-weight: 500;
   cursor: pointer;
   letter-spacing: 0.04em;
+  line-height: 1.5;
 }
 .hero-order-btn:hover,
 .hero-order-btn:focus {
@@ -89,6 +90,7 @@ h2 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 /* .portfolio-name, .team-member-name {
   font-weight: 500;
@@ -99,6 +101,7 @@ h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .team {
   background-color: #f4f4fd;
