@@ -7,8 +7,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: #2E2F42;
   background-color: #ffffff;
+  letter-spacing: .02em;
 }
 a,
 button {
@@ -16,13 +17,15 @@ button {
   color: #434455;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  letter-spacing: .02em;
 }
 
 .logo {
-  font-family: 'Railway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
+  letter-spacing: .03em;
 }
 
 .logo-accent {
@@ -35,15 +38,18 @@ button {
 
 .navigation {
   font-weight: 500;
+  
 }
 
 .nav-link:hover,
-.nav-link:focus-visible,
-.nav-address-link:hover,
-.nav-address-link:focus-visible {
+.nav-link:focus {
   color: #404bbf;
 }
 
+.nav-address-link:hover,
+.nav-address-link:focus {
+  color: #404bbf;
+}
 .hero {
   background-color: #2e2f42;
 }
@@ -54,15 +60,18 @@ button {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: .02em;
 }
 
 .hero-order-btn {
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
+  cursor: pointer;
+  letter-spacing: .04em;
 }
 .hero-order-btn:hover,
-.hero-order-btn:focus-visible {
+.hero-order-btn:focus {
   background-color: #404bbf;
 }
 
@@ -73,11 +82,6 @@ button {
   text-align: center;
 }
 
-/* h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-} */
 .portfolio-name, .team-member-name {
   font-weight: 500;
   font-size: 20px;
@@ -98,4 +102,8 @@ footer {
 }
 .footer-text {
   color: #ffffff;
+}
+
+.portfolio-descr, .team-member-job, .feature-descr {
+  color: #434455;
 }
